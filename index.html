@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeConnect - Project Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lucide/0.462.0/lucide.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="logo-icon">
+                        <i data-lucide="home"></i>
+                    </div>
+                    <h1>HomeConnect</h1>
+                </div>
+                <nav class="navigation">
+                    <a href="#overview">Overview</a>
+                    <a href="#features">Features</a>
+                    <a href="#case-study">Case Study</a>
+                    <a href="#demo">Demo</a>
+                    <a href="#team">Team</a>
+                    <button class="github-btn">
+                        <i data-lucide="github"></i>
+                        <a href="https://github.com/JobkWasswa/recess_group4_homeconnect_app"
+        >GitHub</a
+                    </button>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+     <div class="hero-section">
+        <div class="hero-slider">
+            <div class="slider-container">
+                <div class="slide active">
+                    <img src="images/hero-image.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="images/hero2.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="images/babysitting.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="images/furn_repair.png" alt="">
+                </div>
+            </div>
+            <div class="slider-dots">
+                <span class="dot active" data-slide="0"></span>
+                <span class="dot" data-slide="1"></span>
+                <span class="dot" data-slide="2"></span>
+                <span class="dot" data-slide="3"></span>
+            </div>
+        </div>
+        <div class="hero-overlay">
+            <div class="container">
+                <div class="hero-text">
+                    <h1>HomeConnect: Bridging Homeowners and Service Providers</h1>
+                    <p>A comprehensive marketplace platform that connects homeowners with potential service providers, 
+                       featuring real-time location-based matching, secure booking systems, and integrated communication tools. 
+                       Built with modern web technologies to ensure scalability, security, and exceptional user experience.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Project Info -->
+    <div class="project-info" id="demo">
+        <div class="container">
+            <div class="info-grid">
+                <div class="demo-section">
+                    <div class="demo-card">
+                        <div class="demo-placeholder">
+                            <video
+                                width="400"
+                                height="600"
+                                preload
+                                controls
+                                autoplay
+                                loop
+                                muted
+                                playsinline
+                                class="image"
+                            >
+                                <source src="images/homeconnect_demo_video.mp4" type="video/mp4" />
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                    <div class="demo-buttons">
+                        <button class="btn btn-primary">
+                            
+                            <i data-lucide="external-link"></i>
+                            Live Demo
+                        </button>
+                        <button class="btn btn-outline">
+                            <i data-lucide="github"></i>
+                            <a href="https://github.com/JobkWasswa/recess_group4_homeconnect_app"
+        >View Source Code</a
+                        </button>
+                    </div>
+                </div>
+                <div class="project-details">
+                    <div class="team-info">
+                        <div class="team-member">
+                            <span class="label">Team Member:</span> [WASSWA JOB KITANDWE], jobkwasswa@gmail.com
+                        </div>
+                        <div class="team-member">
+                            <span class="label">Team Member:</span> [TUGUME JOHNATHAN], jonathantugume569@gmail.com
+                        </div>
+                        <div class="team-member">
+                            <span class="label">Team Member:</span> [NAMULINDE JEAN MADRINE], jeanmadrinenamulinde@gmail.com
+                        </div>
+                        <div class="team-member">
+                            <span class="label">Team Member:</span> [OTIENO FIDEL JONES], leftoversme@gmail.com
+                        </div>
+                        <div class="team-member">
+                            <span class="label">Team Member:</span> [SSENGENDO MIRACLE], ssengendomiracle@gmail.com
+                        </div>
+                    </div>
+                    <div class="project-meta">
+                        <div><span class="label">Institution:</span> [MAKERERE UNIVERSITY]</div>
+                        <div><span class="label">Programme:</span> Bachelor of Computer Science</div>
+                        <div><span class="label">Course:</span> Practical Skills Development(CSC 1304)</div>
+                        <div><span class="label">Location:</span> [Makerere Hill, Kampala, Uganda]</div>
+                        <div><span class="label">Project Duration:</span> June 2025 - July 2025</div>
+                    </div>
+                    <p class="project-description">
+                        HomeConnect addresses the growing need for reliable home service connections in today's Uganda digital economy. 
+                        Our platform implements advanced geolocation algorithms, and comprehensive user authentication app
+                         system to create a trustworthy marketplace. The project demonstrates modern full-stack mobile-app
+                        development practices, including app architecture, real-time notifications, and responsive UI
+                        design principles using modern technology-stack Flutter and Firebase.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Table of Contents -->
+    <div class="toc-section">
+        <div class="container">
+            <h2>Table of Contents</h2>
+            <div class="toc-grid">
+                <a href="#overview" class="toc-item">
+                    <span class="toc-number">1</span>
+                    <span>Project Overview</span>
+                </a>
+                <a href="#problem-statement" class="toc-item">
+                    <span class="toc-number">2</span>
+                    <span>Problem Statement</span>
+                </a>
+                <a href="#solution" class="toc-item">
+                    <span class="toc-number">3</span>
+                    <span>Our Solution</span>
+                </a>
+                <a href="#features" class="toc-item">
+                    <span class="toc-number">4</span>
+                    <span>Key Features</span>
+                </a>
+                <a href="#case-study" class="toc-item">
+                    <span class="toc-number">5</span>
+                    <span>Case Study</span>
+                </a>
+                
+                <a href="#user-interface" class="toc-item">
+                    <span class="toc-number">6</span>
+                    <span>User Interface Design</span>
+                </a>
+                
+                <a href="#testing" class="toc-item">
+                    <span class="toc-number">7</span>
+                    <span>Testing & Quality Assurance</span>
+                </a>
+                
+                <a href="#future-work" class="toc-item">
+                    <span class="toc-number">8</span>
+                    <span>Future Enhancements</span>
+                </a>
+                <a href="#team" class="toc-item">
+                    <span class="toc-number">9</span>
+                    <span>Team & Contributions</span>
+                </a>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content Sections -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Overview Section -->
+            <section id="overview" class="content-section">
+                <h2>Project Overview</h2>
+                <p>HomeConnect is a comprehensive marketplace platform designed to bridge the gap between homeowners seeking reliable services and less qualified local service providers looking for opportunities. Our platform leverages modern technology to create a trustworthy, efficient, and user-friendly ecosystem that benefits both parties.</p>
+                
+                <div class="overview-stats">
+                    <div class="stat-item">
+                        <h3>Target Users</h3>
+                        <p>Homeowners in need of Home Services and reliable service providers</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>Service Categories</h3>
+                        <p>10+ different home service categories available</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>Coverage Area</h3>
+                        <p>Metropolitan areas, growing cities with demand for home services</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Problem Statement -->
+            <section id="problem-statement" class="content-section">
+                <h2>Problem Statement</h2>
+                <p>The current home services market faces several critical challenges:</p>
+                <ul>
+                    <li><strong>Trust and Safety Concerns:</strong> Homeowners struggle to find trusted, reliable service providers, leading to safety and quality concerns.</li>
+                    <li><strong>Inefficient Discovery:</strong> Traditional methods of finding service providers (word-of-mouth, village-connections) are time-consuming and limited in scope.</li>
+                    <li><strong>Communication Barriers:</strong> Lack of standardized communication channels leads to misunderstandings and scheduling conflicts.</li>
+                    <li><strong>Booking & Schedule Complexity:</strong> No streamlined system for booking, organising schedules and service management.</li>
+                    <li><strong>Limited Transparency:</strong> Absence of reliable rating and review systems makes it difficult to assess service quality.</li>
+                </ul>
+            </section>
+
+            <!-- Solution -->
+            <section id="solution" class="content-section">
+                <h2>Our Solution</h2>
+                <p>HomeConnect addresses these challenges through a comprehensive digital mobile-app platform that provides:</p>
+                
+                <div class="solution-grid">
+                    <div class="solution-item">
+                        <i data-lucide="shield-check"></i>
+                        <h3>Verified App Users and authentication</h3>
+                        <p>User management and skill assessments to ensure quality, build trust and safety.</p>
+                    </div>
+                    <div class="solution-item">
+                        <i data-lucide="map-pin"></i>
+                        <h3>Smart Location Matching</h3>
+                        <p>Advanced geolocation algorithms that connect homeowners with nearby service providers for faster, more efficient service delivery.</p>
+                    </div>
+                    <div class="solution-item">
+                        <i data-lucide="message-circle"></i>
+                        <h3>Integrated Communication</h3>
+                        <p>Built-in chat system, real-time notifications, and scheduling tools to streamline communication and coordination.</p>
+                    </div>
+                    
+                </div>
+            </section>
+
+            <!-- Key Features -->
+            <section id="features" class="features-section">
+                <div class="container">
+                    <div class="section-header">
+                        <h2 class="section-title">Platform Features</h2>
+                        <p class="section-description">
+                            HomeConnect offers a comprehensive set of features designed to create a seamless 
+                            experience for both service providers and homeowners.
+                        </p>
+                    </div>
+
+                    <div class="features-content">
+                        <h3 class="subsection-title">Core MVP Features</h3>
+                        <div class="features-grid">
+                            <div class="feature-card">
+                                <div class="card-header">
+                                    <div class="feature-title-row">
+                                        <h4 class="feature-title">User Authentication</h4>
+                                        <span class="badge badge-success">MVP Ready</span>
+                                    </div>
+                                    <span class="badge badge-outline">Security</span>
+                                </div>
+                                <div class="card-content">
+                                    <p class="feature-description">
+                                        Secure registration and login for both homeowners and service providers with email/password and social login options.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="feature-card">
+                                <div class="card-header">
+                                    <div class="feature-title-row">
+                                        <h4 class="feature-title">Profile Management</h4>
+                                        <span class="badge badge-success">MVP Ready</span>
+                                    </div>
+                                    <span class="badge badge-outline">User Experience</span>
+                                </div>
+                                <div class="card-content">
+                                    <p class="feature-description">
+                                        Comprehensive profiles with contact info, service areas, skills, ratings, and location setting.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="feature-card">
+                                <div class="card-header">
+                                    <div class="feature-title-row">
+                                        <h4 class="feature-title">Service Discovery</h4>
+                                        <span class="badge badge-success">MVP Ready</span>
+                                    </div>
+                                    <span class="badge badge-outline">Core Feature</span>
+                                </div>
+                                <div class="card-content">
+                                    <p class="feature-description">
+                                        Advanced search and filtering by service type, location, ratings, and availability.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="feature-card">
+                                <div class="card-header">
+                                    <div class="feature-title-row">
+                                        <h4 class="feature-title">Booking System</h4>
+                                        <span class="badge badge-success">MVP Ready</span>
+                                    </div>
+                                    <span class="badge badge-outline">Core Feature</span>
+                                </div>
+                                <div class="card-content">
+                                    <p class="feature-description">
+                                        Seamless booking flow with calendar selection, job descriptions, and real-time availability.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="feature-card">
+                                <div class="card-header">
+                                    <div class="feature-title-row">
+                                        <h4 class="feature-title">Job Management</h4>
+                                        <span class="badge badge-success">MVP Ready</span>
+                                    </div>
+                                    <span class="badge badge-outline">Core Feature</span>
+                                </div>
+                                <div class="card-content">
+                                    <p class="feature-description">
+                                        Complete job lifecycle management for both homeowners and service providers.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="feature-card">
+                                <div class="card-header">
+                                    <div class="feature-title-row">
+                                        <h4 class="feature-title">Rating & Reviews</h4>
+                                        <span class="badge badge-success">MVP Ready</span>
+                                    </div>
+                                    <span class="badge badge-outline">Trust & Safety</span>
+                                </div>
+                                <div class="card-content">
+                                    <p class="feature-description">
+                                        Comprehensive rating system to build trust and quality assurance.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="feature-card">
+                                <div class="card-header">
+                                    <div class="feature-title-row">
+                                        <h4 class="feature-title">Real-time Notifications</h4>
+                                        <span class="badge badge-success">MVP Ready</span>
+                                    </div>
+                                    <span class="badge badge-outline">Communication</span>
+                                </div>
+                                <div class="card-content">
+                                    <p class="feature-description">
+                                        Instant notifications for job requests, updates, and completions.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="feature-card">
+                                <div class="card-header">
+                                    <div class="feature-title-row">
+                                        <h4 class="feature-title">In-app Messaging</h4>
+                                        <span class="badge badge-success">MVP Ready</span>
+                                    </div>
+                                    <span class="badge badge-outline">Communication</span>
+                                </div>
+                                <div class="card-content">
+                                    <p class="feature-description">
+                                        Secure chat system between homeowners and service providers.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                </div>
+            </section>
+
+            <!-- Use Cases -->
+            <section id="case-study" class="content-section">
+                <h2>Case Study</h2>
+                <p>Real-world scenarios demonstrating how HomeConnect solves problems for both service providers and homeowners.</p>
+                
+                <div class="use-cases-grid">
+                    <!-- Service Provider Case Study -->
+                    <div class="case-study">
+                        <div class="case-study-header">
+                            <i data-lucide="user"></i>
+                            <h3>Case Study 1: The Service Provider</h3>
+                        </div>
+                        
+                        <div class="case-study-content">
+                            <div class="profile-section">
+                                <h4>Service Provider Profile</h4>
+                                <div class="profile-details">
+                                    <p><strong>Name:</strong> Kitandwe John</p>
+                                    <p><strong>Job Description:</strong>Am very hardworking and offer house cleaning services.</p>
+                                    <p><strong>Services:</strong> House Cleaning, Compound cleaning</p>
+                                </div>
+                            </div>
+
+                            <div class="current-situation">
+                                <h4>Current Situation:</h4>
+                                <ul>
+                                    <li>Relies on WhatsApp, word-of-mouth, and flyers</li>
+                                    <li>Misses bookings due to poor schedule tracking</li>
+                                    <li>No reviews = lack of trust from new clients</li>
+                                    <li>Can't compete with bigger companies online</li>
+                                </ul>
+                            </div>
+
+                            <div class="app-usage">
+                                <h4><i data-lucide="lightbulb"></i> How He'll Use the App</h4>
+                                <ul>
+                                    <li>Creates a profile with job description & services, availability(working hours) and set their location.</li>
+                                    <li>Receives booking requests directly in the dashboard screen</li>
+                                    <li>Accepts/Reject job requests, Accepted jobs added to his built-in calendar</li>
+                                    <li>In-app chatting for communication and Google map feature to locate the Homeowner.</li>
+                                    <li>Mark completed Jobs to be verifed by the clients as well as getting rated</li>
+                                    <li>Uses service history to build a trusted online reputation</li>
+                                </ul>
+                            </div>
+
+                            <div class="why-needed">
+                                <h4><i data-lucide="flame"></i> Why He Desperately Needs It</h4>
+                                <ul>
+                                    <li>He'll get more consistent work from a larger nearby households</li>
+                                    <li>Builds a digital reputation with reviews and ratings</li>
+                                    <li>Stops missing appointments,notified and monitor schedules through the app.</li>
+                                    <li>Appears alongside high rated Providers in list of Providers</li>
+                                </ul>
+                            </div>
+
+                            <div class="without-app">
+                                <h4><i data-lucide="x"></i> What If He Doesn't Have This App?</h4>
+                                <p>John continues to lose job opportunities to companies with online presence. He struggles to scale, forgets bookings, and remains invisible to potential customers outside his neighborhood.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Homeowner Case Study -->
+                    <div class="case-study">
+                        <div class="case-study-header">
+                            <i data-lucide="home"></i>
+                            <h3>Case Study 2: The Homeowner</h3>
+                        </div>
+                        
+                        <div class="case-study-content">
+                            <div class="profile-section">
+                                <h4>Client Profile</h4>
+                                <div class="profile-details">
+                                    <p><strong>Name:</strong> Aine Grace</p>
+                                    <p><strong>Location:</strong> Kampala, Wandegeya</p>
+                                    <p><strong>Lifestyle:</strong> Full-time remote worker & mother of 2</p>
+                                    <p><strong>Problem:</strong> Constantly juggling work and household tasks</p>
+                                    <p><strong>Needs:</strong> Regular help with house cleaning, dish washing, and laundry.</p>
+                                </div>
+                            </div>
+
+                            <div class="app-usage">
+                                <h4><i data-lucide="lightbulb"></i> How She'll Use the App</h4>
+                                <ul>
+                                    <li>Opens the app, registers and logs in to her dashboard screen</li>
+                                    <li>Taps one of the services she needs in the explore categories, a list of potential, available nearby providers is provided to her. </li>
+                                    <li>Selects only one of her choice by clicking the 'Book Now' button to make an appointment.</li>
+                                    <li>Gets notifications accepted & completed jobs as well as in-app communications. </li>
+                                    <li>Make Reviews and rate provides after job completion.</li>
+                                    <li>Views her full history in case she wants to rebook</li>
+                                </ul>
+                            </div>
+
+                            <div class="why-needed">
+                                <h4><i data-lucide="flame"></i> Why She Desperately Needs It</h4>
+                                <ul>
+                                    <li>Saves hours of Googling, calling, and comparing random service ads</li>
+                                    <li>Peace of mind from recommended, reviewed providers</li>
+                                    <li>Knows her service history and track her bookings</li>
+                                    <li>No more scrambling for help when things break</li>
+                                </ul>
+                            </div>
+
+                            <div class="without-app">
+                                <h4><i data-lucide="x"></i> What If She Doesn't Have This App?</h4>
+                                <p>Grace keeps relying on unreliable providers she found from Facebook groups. Schedules get mixed up, she forgets who did what, and she never knows who to trust. She wastes time and money.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- Team Section -->
+    <section id="team" class="team-section">
+        <div class="container">
+            <h2>Meet Development Team</h2>
+            <div class="team-grid">
+                <div class="team-card">
+                    <img src="images/wjob_profile.jpg" alt="Job Wasswa" class="team-avatar">
+                    <h3>WASSWA JOB KITANDWE</h3>
+                    <p class="team-email">jobkwasswa@gmail.com</p>
+                    <div class="team-contributions">
+                        <span class="contribution">Flutter-frontend Development</span>
+                        <span class="contribution">App Architecture</span>
+                        <span class="contribution">Backend Logic</span>
+                    </div>
+                    <div class="team-social">
+                        <a href="https://github.com/JobkWasswa"><button class="social-btn"><i data-lucide="github" ></i></button></a>
+                        <button class="social-btn"><i data-lucide="linkedin"></i></button>
+                        <a href="mailto:jobkwasswa@gmail.com"><button class="social-btn"><i data-lucide="mail"></i></button></a>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <img src="images/jona_profie.jpg" alt="Jonathan Tugume" class="team-avatar">
+                    <h3>TUGUME JOHNATHAN</h3>
+                    <p class="team-email">jonathantugume569@gmail.com</p>
+                    <div class="team-contributions">
+                        <span class="contribution">Flutter-frontend Development</span>
+                        <span class="contribution">App Architecture</span>
+                        <span class="contribution">Backend Logic</span>
+                    </div>
+                    <div class="team-social">
+                        <a href="https://github.com/jonathantugume569"><button class="social-btn"><i data-lucide="github" ></i></button></a>
+                        <button class="social-btn"><i data-lucide="linkedin"></i></button>
+                        <a href="mailto:jonathantugume569@gmail.com"><button class="social-btn"><i data-lucide="mail"></i></button></a>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <img src="images/jean_profile.jpg" alt="Jean Madrine" class="team-avatar">
+                    <h3>NAMULINDE JEAN MADRINE</h3>
+                    <p class="team-email">jeanmadrinenamulinde@gmail.com</p>
+                    <div class="team-contributions">
+                        <span class="contribution">Flutter-frontend Development</span>
+                        <span class="contribution">App Architecture</span>
+                        <span class="contribution">Backend Logic</span>
+                    </div>
+                    <div class="team-social">
+                        <a href="https://github.com/madrinejean123"><button class="social-btn"><i data-lucide="github"></i></button></a>
+                        <button class="social-btn"><i data-lucide="linkedin"></i></button>
+                        <a href="mailto:jeanmadrinenamulinde@gmail.com"><button class="social-btn"><i data-lucide="mail"></i></button></a>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <img src="images/fidel_profile.jpg" alt="Fidel Jones" class="team-avatar">
+                    <h3>OTIENO FIDEL JONES</h3>
+                    <p class="team-email">leftoversme@gmail.com</p>
+                    <div class="team-contributions">
+                        <span class="contribution">Flutter-frontend Development</span>
+                        <span class="contribution">App Architecture</span>
+                        <span class="contribution">Backend Logic</span>
+                    </div>
+                    <div class="team-social">
+                        <a href="https://github.com/FidelJones"><button class="social-btn"><i data-lucide="github"></i></button></a>
+                        <button class="social-btn"><i data-lucide="linkedin"></i></button>
+                        <a href="mailto:leftoversme@gmail.com"><button class="social-btn"><i data-lucide="mail"></i></button></a>
+
+                    </div>
+                </div>
+                
+                <div class="team-card">
+                    <img src="images/miracle_profile.jpg" alt="Miracle Ssengendo" class="team-avatar">
+                    <h3>SSENGENDO MIRACLE</h3>
+                    <p class="team-email">ssengendomiracle@gmail.com</p>
+                    <div class="team-contributions">
+                        <span class="contribution">User Experience Design</span>
+                        <span class="contribution">Interface Design</span>
+                        <span class="contribution">Backend Logic</span>
+                    </div>
+                    <div class="team-social">
+                        <a href="https://github.com/MiracleSsengendo"><button class="social-btn"><i data-lucide="github"></i></button></a>
+                        <button class="social-btn"><i data-lucide="linkedin"></i></button>
+                        <a href="mailto:ssengendomiracle@gmail.com"><button class="social-btn"><i data-lucide="mail"></i></button></a>
+
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <h3>HomeConnect Project</h3>
+                <p>A comprehensive marketplace platform connecting homeowners with trusted service providers.</p>
+                <div class="footer-buttons">
+                    <button class="btn btn-ghost">
+                        <i data-lucide="github"></i>
+                        <a href="https://github.com/JobkWasswa/recess_group4_homeconnect_app"
+                            >Source Code</a
+                        
+                    </button>
+                    <button class="btn btn-ghost" id="demo">
+                        <i data-lucide="external-link"></i>
+                        Live Demo
+                    </button>
+                </div>
+                <p class="footer-copyright">© 2025 HomeConnect Team. This project is part of our recess practical skills development.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
